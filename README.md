@@ -87,11 +87,11 @@ Write a function named 'isEmptyDeep' that makes a deep check is an object empty
  
 **Empty values:** '', null, NaN, undefined, [], {}   
 ### Expected Result:
-`({}) => true`
+({}) => true
 
-`({ a: { b: undefined } }) => true`
+({ a: { b: undefined } }) => true
 
-`({ a: { b: [] } }) => true`   
+({ a: { b: [] } }) => true  
 
 ```js
 const data = { a: { b: undefined } };
